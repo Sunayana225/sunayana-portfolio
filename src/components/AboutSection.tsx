@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const aboutIntro = "Hi, I'm Sunayana yakkala — a Full-Stack Developer and AI/ML enthusiast who loves combining creativity and logic to build sleek interfaces and smart, scalable systems. I'm also multilingual, fluent in French, Hindi, Telugu, and English.";
+const aboutIntro = "Hi, I'm Sunayana Yakkala — a Full-Stack Developer and AI/ML enthusiast who loves combining creativity and logic to build sleek interfaces and smart, scalable systems. I'm also multilingual, fluent in French, Hindi, Telugu, and English.";
 
 function useTypewriter(text: string, speed = 40) {
   const [displayed, setDisplayed] = useState("");
