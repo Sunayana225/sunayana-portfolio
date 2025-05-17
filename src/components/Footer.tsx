@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col items-center justify-center gap-4">
         <div className="flex flex-row items-center justify-center gap-6 mb-2">
           <a
-            href="https://www.linkedin.com/in/sunayanayakkala/"
+            href="https://www.linkedin.com/in/sunayana-yakkala-99145a280/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gold hover:text-white transition-colors duration-300 text-2xl p-2 rounded-full focus:outline-none focus:ring-2 focus:ring-gold"

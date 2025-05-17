@@ -27,8 +27,8 @@ const contactDetails = [
   },
   {
     icon: <Linkedin size={24} />,
-    text: "linkedin.com/in/SunayanaYakkala",
-    href: "https://www.linkedin.com/in/sunayanayakkala/",
+    text: "linkedin.com/in/sunayana-yakkala",
+    href: "https://www.linkedin.com/in/sunayana-yakkala-99145a280/",
     target: "_blank",
   },
   {
