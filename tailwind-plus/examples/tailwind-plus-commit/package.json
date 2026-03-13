@@ -1,0 +1,44 @@
+{
+  "name": "tailwind-plus-commit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browserslist": "defaults, not ie <= 11",
+  "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.4.4",
+    "@tailwindcss/postcss": "^4.1.11",
+    "cheerio": "^1.1.2",
+    "clsx": "^2.1.1",
+    "feed": "^5.1.0",
+    "mdast-util-to-string": "^4.0.0",
+    "mdx-annotations": "^0.1.4",
+    "motion": "^10.18.0",
+    "next": "^15.4.4",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recma-import-images": "^0.0.3",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-slug": "^6.0.0",
+    "rehype-unwrap-images": "^1.0.0",
+    "remark-gfm": "^4.0.1",
+    "remark-rehype-wrap": "^0.0.5",
+    "shiki": "^0.14.7",
+    "tailwindcss": "^4.1.11",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "eslint-config-next": "^15.4.4",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "sharp": "0.34.3"
+  }
+}

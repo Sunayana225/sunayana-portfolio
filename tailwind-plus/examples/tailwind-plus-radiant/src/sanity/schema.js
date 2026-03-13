@@ -1,0 +1,8 @@
+import { authorType } from './types/author'
+import { blockContentType } from './types/block-content'
+import { categoryType } from './types/category'
+import { postType } from './types/post'
+
+export const schema = {
+  types: [blockContentType, postType, categoryType, authorType],
+}
