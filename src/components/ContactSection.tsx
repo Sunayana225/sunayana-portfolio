@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 
 // Placeholder icons
 const Mail = ({ size }: { size: number }) => <span style={{ fontSize: size }}>[M]</span>;
-const Phone = ({ size }: { size: number }) => <span style={{ fontSize: size }}>[P]</span>;
 const MapPin = ({ size }: { size: number }) => <span style={{ fontSize: size }}>[MP]</span>;
 const Linkedin = ({ size }: { size: number }) => <span style={{ fontSize: size }}>[LI]</span>;
 const Github = ({ size }: { size: number }) => <span style={{ fontSize: size }}>[GH]</span>;
@@ -14,11 +13,6 @@ const contactDetails = [
     icon: <Mail size={24} />,
     text: "yakkalasunayana1605@gmail.com",
     href: "mailto:yakkalasunayana1605@gmail.com",
-  },
-  {
-    icon: <Phone size={24} />,
-    text: "+91 8331944488",
-    href: "tel:+918331944488",
   },
   {
     icon: <MapPin size={24} />,

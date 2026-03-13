@@ -7,7 +7,6 @@ export const photographerInfo: PhotographerInfo = {
   biography: `Hi, I'm Sunayana Yakkala, a software engineering student and full-stack developer focused on building scalable web applications and AI-driven systems. I work across frontend, backend, automation, and product experience to turn ambitious ideas into polished, useful software. I enjoy collaborative development, clean architecture, and building accessible user experiences.`,
   location: 'India (Remote)',
   email: 'yakkalasunayana1605@gmail.com',
-  phone: '+91 8331944488',
   availability: 'Open to full-time roles, freelance projects, and collaborations.',
   socialLinks: {
     github: 'https://github.com/Sunayana225',

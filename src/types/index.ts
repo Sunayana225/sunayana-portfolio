@@ -68,7 +68,6 @@ export interface PhotographerInfo {
   biography: string;
   location: string;
   email: string;
-  phone: string;
   availability: string;
   portraitImage: string;
   socialLinks: {
