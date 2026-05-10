@@ -1,77 +1,31 @@
-# Welcome to your Lovable project
+# Sunayana Yakkala — Portfolio (deployable repo)
 
-## Project info
+This folder is the deployable copy of the portfolio used for Vercel deployments.
 
-**URL**: https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae
+Local development
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+cd vercel_fix_repo
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build for production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Pushes to this repo trigger Vercel deployments (if configured). Place files you want served at the site root into `public/` before pushing.
 
-## What technologies are used for this project?
+Tech stack
 
-This project is built with:
-
-- Vite
+- Vite + React
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6fd12b81-631e-49d3-83b3-86e8b3fab3ae) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
 
 # ./tailwind-plus folder:
 
-The tailwind-plus folder contains tailwind components and themes to be used as inspiration for the project. DO NOT REMOVE THE FOLDER UNLESS SPECIFICALLY TOLD TO DO SO
+The `tailwind-plus` folder contains Tailwind components and themes used as inspiration for the project. Do not remove it unless you intend to.
